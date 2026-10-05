@@ -25,6 +25,7 @@ int task_one() {
 	scanf_s("%lf", &gr);
 	rad = gr * M_PI / 180;
 	printf("The value in radians:%.6f\n", rad);
+	return 0;
 }
 int task_two(){
 	puts("TASK TWO----------------------------------------------------------------------------------------------------------------");
@@ -36,6 +37,7 @@ int task_two(){
 	a = pow(x, 4) + pow(b, 3);
 	y = pow(log(a), 3) + exp(-x);
 	printf("Value of y: %.6f\n", y);
+	return 0;
 }
 int task_three() {
 	puts("TASK THREE--------------------------------------------------------------------------------------------------------------");
@@ -65,6 +67,7 @@ int task_three() {
 		result = 0;
 	}
 	printf("Result: %d\n", result);
+	return 0;
 }
 int homework() {
 	puts("HOMEWORK----------------------------------------------------------------------------------------------------------------");
@@ -77,6 +80,7 @@ int homework() {
 	scanf_s("%lf", &y1);
 	F = (pow(cos(y1), 2) + 2.4 * d) / (exp(y1) + log(pow(sin(x1), 2) + 6));
 	printf("Result F: %.6f\n", F);
+	return 0;
 	// Варианты для проверки:
 	// 1 Вариант: x = 4, y = 2
 	// 2 Вариант: x = 0.0000015, y = -2000000000
