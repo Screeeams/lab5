@@ -25,6 +25,7 @@ int task_one() {
 	scanf_s("%lf", &gr);
 	rad = gr * M_PI / 180;
 	printf("The value in radians:%.6f\n", rad);
+	printf("Sin = %lf\n", sin(rad));
 	return 0;
 }
 int task_two(){
