@@ -46,9 +46,9 @@ int task_three() {
 	scanf_s("%lf", &a1);
 	puts("Enter B:");
 	scanf_s("%lf", &b1);
-	int A = (int)floor(a1);
-	int B = (int)floor(b1);
-	int C = (int)floor(y);
+	int A = (int)round(a1);
+	int B = (int)round(b1);
+	int C = (int)round(y);
 	if ((A % 2 == 0) && (B % 2 == 0)) {
 		result = 0;
 	}
